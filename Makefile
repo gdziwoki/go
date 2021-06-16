@@ -27,7 +27,7 @@ lint-fix: $(MODULES:=-lint-fix)
 .PHONY: test
 test: $(MODULES:=-test)
 	echo 'mode: atomic' > cover.out
-	cat cover/* | grep -v '^mode: ' | sed 's@github.com/johnstarich/go@.@' >> cover.out
+	cat cover/* | grep -v '^mode: ' | sed 's@github.com/gdziwoki/go@.@' >> cover.out
 	set -e -o pipefail; \
 		coverage=$$(go tool cover -func "cover.out" | tail -1 | awk '{print $$3}'); \
 		printf '##########################\n' >&2; \

@@ -1,4 +1,4 @@
-module github.com/johnstarich/go/datasize
+module github.com/gdziwoki/go/datasize
 
 go 1.12
 
