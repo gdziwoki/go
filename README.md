@@ -1,4 +1,4 @@
-# Go utilities [![CI Status](https://github.com/JohnStarich/go/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnStarich/go/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/JohnStarich/go/badge.svg?branch=master)](https://coveralls.io/github/JohnStarich/go?branch=master)
+# Go utilities [![CI Status](https://github.com/gdziwoki/go/actions/workflows/ci.yml/badge.svg)](https://github.com/gdziwoki/go/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/gdziwoki/go/badge.svg?branch=master)](https://coveralls.io/github/gdziwoki/go?branch=master)
 
 This is a collection of my Go utilities in one easy-to-import and easy-to-share place.
 
@@ -9,7 +9,7 @@ This is a collection of my Go utilities in one easy-to-import and easy-to-share 
 
 #### Questions? Concerns?
 
-Please [open an issue](https://github.com/JohnStarich/go/issues/new) and we can talk about it! 😄
+Please [open an issue](https://github.com/gdziwoki/go/issues/new) and we can talk about it! 😄
 
 #### Legal stuff
 
