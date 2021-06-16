@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/johnstarich/go/gopages/internal/generate/source"
+	"github.com/gdziwoki/go/gopages/internal/generate/source"
 )
 
 type GoPagesLinker struct {

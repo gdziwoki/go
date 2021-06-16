@@ -12,12 +12,12 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/gdziwoki/go/gopages/internal/flags"
+	"github.com/gdziwoki/go/gopages/internal/generate/source"
+	"github.com/gdziwoki/go/gopages/internal/pipe"
+	"github.com/gdziwoki/go/gopages/internal/safememfs"
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/johnstarich/go/gopages/internal/flags"
-	"github.com/johnstarich/go/gopages/internal/generate/source"
-	"github.com/johnstarich/go/gopages/internal/pipe"
-	"github.com/johnstarich/go/gopages/internal/safememfs"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/godoc"
@@ -124,7 +124,7 @@ func Docs(modulePath, modulePackage string, src, fs billy.Filesystem, args flags
 Oops, this page doesn't exist.
 </span>
 </p>
-<p>If something should be here, <a href="https://github.com/JohnStarich/go/issues/new" target="_blank">open an issue</a>.</p>
+<p>If something should be here, <a href="https://github.com/gdziwoki/go/issues/new" target="_blank">open an issue</a>.</p>
 `)
 			return err
 		},

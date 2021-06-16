@@ -5,7 +5,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/johnstarich/go/gopages/internal/generate/source"
+	"github.com/gdziwoki/go/gopages/internal/generate/source"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -52,13 +52,13 @@ func TestGoPagesLinkToSource(t *testing.T) {
 
 func TestNewTemplateLinker(t *testing.T) {
 	const (
-		someModulePkg = "https://github.com/johnstarich/go"
-		someTemplate  = "https://github.com/johnstarich/go/blob/master/gopages/{{.Path}}{{if .Line}}#L{{.Line}}{{end}}"
+		someModulePkg = "https://github.com/gdziwoki/go"
+		someTemplate  = "https://github.com/gdziwoki/go/blob/master/gopages/{{.Path}}{{if .Line}}#L{{.Line}}{{end}}"
 	)
 	linker, err := newTemplateLinker(someModulePkg, someTemplate)
 	assert.NoError(t, err)
 	assert.Equal(t, &TemplateLinker{
-		modulePackage: "github.com/johnstarich/go",
+		modulePackage: "github.com/gdziwoki/go",
 		template:      template.Must(template.New("").Parse(someTemplate)),
 	}, linker)
 }

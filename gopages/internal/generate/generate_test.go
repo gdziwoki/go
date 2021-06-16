@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/gdziwoki/go/gopages/internal/flags"
 	"github.com/go-git/go-billy/v5/memfs"
 	"github.com/go-git/go-billy/v5/osfs"
-	"github.com/johnstarich/go/gopages/internal/flags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

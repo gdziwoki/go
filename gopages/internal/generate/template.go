@@ -7,8 +7,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/johnstarich/go/gopages/internal/flags"
-	"github.com/johnstarich/go/gopages/internal/pipe"
+	"github.com/gdziwoki/go/gopages/internal/flags"
+	"github.com/gdziwoki/go/gopages/internal/pipe"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/godoc"
 	"golang.org/x/tools/godoc/vfs"
