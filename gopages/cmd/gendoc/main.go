@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/johnstarich/go/gopages/cmd"
-	"github.com/johnstarich/go/gopages/internal/flags"
+	"github.com/gdziwoki/go/gopages/cmd"
+	"github.com/gdziwoki/go/gopages/internal/flags"
 	"github.com/pkg/errors"
 )
 

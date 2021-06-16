@@ -10,5 +10,5 @@ import (
 func TestPackage(t *testing.T) {
 	modulePackage, err := Package("../..")
 	require.NoError(t, err)
-	assert.Equal(t, "github.com/johnstarich/go/gopages", modulePackage)
+	assert.Equal(t, "github.com/gdziwoki/go/gopages", modulePackage)
 }

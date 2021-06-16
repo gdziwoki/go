@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/johnstarich/go/gopages/internal/pipe"
+	"github.com/gdziwoki/go/gopages/internal/pipe"
 	"github.com/pkg/errors"
 	"golang.org/x/mod/modfile"
 )

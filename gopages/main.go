@@ -11,6 +11,12 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/gdziwoki/go/gopages/cmd"
+	"github.com/gdziwoki/go/gopages/internal/flags"
+	"github.com/gdziwoki/go/gopages/internal/generate"
+	"github.com/gdziwoki/go/gopages/internal/generate/source"
+	"github.com/gdziwoki/go/gopages/internal/module"
+	"github.com/gdziwoki/go/gopages/internal/pipe"
 	"github.com/go-git/go-billy/v5/memfs"
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-git/v5"
@@ -18,12 +24,6 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	gitHTTP "github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/go-git/go-git/v5/storage/memory"
-	"github.com/johnstarich/go/gopages/cmd"
-	"github.com/johnstarich/go/gopages/internal/flags"
-	"github.com/johnstarich/go/gopages/internal/generate"
-	"github.com/johnstarich/go/gopages/internal/generate/source"
-	"github.com/johnstarich/go/gopages/internal/module"
-	"github.com/johnstarich/go/gopages/internal/pipe"
 	"github.com/pkg/errors"
 )
 
