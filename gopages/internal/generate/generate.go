@@ -61,7 +61,7 @@ func Docs(modulePath, modulePackage string, src, fs billy.Filesystem, args flags
 	pres := godoc.NewPresentation(corpus)
 	pres.AdjustPageInfoMode = func(req *http.Request, mode godoc.PageInfoMode) godoc.PageInfoMode {
 		switch {
-		case req.URL.Path == "/pkg/", strings.HasPrefix(req.URL.Path, "/pkg/") && strings.HasSuffix(req.URL.Path, "/internal/"):
+		case req.URL.Path == "/pkg/", strings.HasPrefix(req.URL.Path, "/pkg/"):
 			mode |= godoc.NoFiltering
 		}
 		return mode
